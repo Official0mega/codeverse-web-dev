@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="process.php" method="POST">
+            <h2>Registration Form</h2>
+            <label for="username"> Username </label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password"> Password </label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit"> Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        CodeVerse &copy; All Rights Reserved 2023
+    </footer>
+</body>
+</html>
