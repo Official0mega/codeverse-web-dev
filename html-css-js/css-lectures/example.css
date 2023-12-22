@@ -1,0 +1,38 @@
+.container {
+    color: blue;
+    background-color: black;
+}
+
+
+#our_id {
+    color: red;
+    background-color: grey;
+}
+
+article {
+    color: purple;
+}
+
+article p {
+    color: skyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:xx-large;
+    padding: 20px 30px;
+    border: 4px solid #fd0000;
+    position: relative;
+}
+
+body {
+    /* background-image: url(./bg.jpeg); */
+    background-color: greenyellow;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    padding: 7px 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
