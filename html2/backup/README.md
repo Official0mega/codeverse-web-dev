@@ -1,4 +1,4 @@
-# Simple Shell Project
+# Simple Shell Project Bible
 
 This is a simple UNIX command-line interpreter project for the ALX SE Foundations curriculum. The goal is to create a basic shell that can execute commands, handle built-in functionalities, and implement various advanced features.
 
