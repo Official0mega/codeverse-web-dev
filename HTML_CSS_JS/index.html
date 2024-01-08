@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scrolling Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to CodeVerse</h2>
+            <p>Explore the extraordinary world of web development with us. Our project website is a showcase of innovation and creativity, meticulously crafted with astonishing HTML, CSS, and Javascript.</p>
+            
+            <p>At [Your Project Name], we're more than just code. We're a community of passionate individuals dedicated to pushing the boundaries of what's possible in the digital realm. Whether you're a beginner, an enthusiast, or a seasoned developer, there's something here for everyone.</p>
+            
+            <p>Feel free to navigate through our sections, from projects and services to our commitment to excellence. Join us on this exciting journey as we continue to evolve and make a mark in the ever-evolving landscape of web development.</p>
+            
+            <p>Ready to dive in? Start exploring and discover how [Your Project Name] can inspire and empower your journey in the world of web development.</p>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Explore Our Projects</h2>
+        <p>Step into the realm of innovation and creativity at [Your Project Name]. Our projects are a testament to our dedication to excellence, crafted with the perfect blend of astonishing HTML, CSS, and Javascript.</p>
+        
+        <div class="project-item">
+            <h3>Project Name 1</h3>
+            <p>Discover our first project, where we pushed the boundaries of web development to create a seamless and engaging user experience. [Brief description of Project 1]</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Project Name 2</h3>
+            <p>Immerse yourself in the world of design excellence with our second project. We blend creativity and functionality to deliver visually stunning solutions. [Brief description of Project 2]</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Project Name 3</h3>
+            <p>Explore the cutting-edge innovations and technologies applied in our third project. We embrace challenges to provide forward-thinking solutions for your digital needs. [Brief description of Project 3]</p>
+        </div>
+        
+        <p>Join us on this journey of exploration and innovation. Dive into our projects to see how [Your Project Name] is making a difference. Feel free to reach out if you have any questions or if you're interested in collaborating on future projects!</p>
+    </section>
+    
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Discover the range of services we offer at [Your Project Name]. Our commitment to excellence is reflected in the following areas:</p>
+        
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Experience cutting-edge web development solutions crafted with astonishing HTML, CSS, and Javascript. Our team of experts ensures your online presence stands out.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>Design Excellence</h3>
+            <p>Immerse yourself in visually stunning designs that captivate your audience. We combine creativity and functionality to deliver a seamless user experience.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>Innovation and Technology</h3>
+            <p>Stay ahead with our innovative approaches and the latest technologies. We embrace challenges to bring you forward-thinking solutions for your digital needs.</p>
+        </div>
+        
+        <p>Explore how [Your Project Name] can elevate your online presence and technological capabilities. Whether you're an individual, business, or organization, we have the expertise to meet your unique requirements.</p>
+    </section>
+    
+
+    <section id="about">
+        <h2>Welcome to Our Project Website</h2>
+        <p>At CodeVerse, we are passionate about innovation and creativity. Our project website is a manifestation of our dedication to excellence, crafted with the perfect blend of astonishing HTML, CSS, and Javascript.</p>
+        
+        <p>Founded with a vision to make a positive impact, our team of talented individuals brings diverse skills and expertise to the table. We believe in pushing boundaries and embracing challenges to deliver solutions that exceed expectations.</p>
+        
+        <p>Whether you're a visitor exploring our website or a collaborator interested in joining forces, we invite you to delve into the world of [Your Project Name]. Our commitment to quality, user experience, and cutting-edge technologies sets us apart.</p>
+        
+        <p>Join us on this exciting journey as we continue to innovate, inspire, and create. Feel free to explore our projects, get to know our team, and reach out for collaborations. Together, let's make a difference!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Are you ready to embark on a journey to become a master in web development? We're here to help you achieve your goals. Whether you have questions, need guidance, or want to explore opportunities, feel free to reach out to us.</p>
+        
+        <p>Send us a message today, and our team of experts will get back to you as soon as possible. Your success in web development is our priority, and we're excited to assist you on your learning path.</p>
+    
+        <div class="contact-form">
+            <form action="your_form_action_url" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    
+        <p>We look forward to hearing from you and helping you on your journey to mastery in web development!</p>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2022 - 2024. All Rights Reserved. | CodeVerse</p>
+        <button id="back-to-top-btn">&#9650;</button>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script>
+        // Scroll to the Top
+        const backToTopButton = document.getElementById('back-to-top-btn');
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
